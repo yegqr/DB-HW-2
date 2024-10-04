@@ -1,4 +1,4 @@
-import mysql.connector
+`import mysql.connector
 import uuid
 from faker import Faker
 from dotenv import load_dotenv
@@ -79,3 +79,4 @@ print("Inserted into opt_orders.")
 # Close the cursor and connection
 cursor.close()
 connection.close()
+`
